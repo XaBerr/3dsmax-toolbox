@@ -1,0 +1,16 @@
+name "P3DS Installer"
+description "Professional 3D Studio tools on your system"
+version 1
+
+copy "organizer.mse" to "$scripts\"
+
+
+copy "organizer.mcr" to "$Scripts\"
+
+
+drop "$scripts\organizer.mcr"
+
+run  "$scripts\organizer.mse"
+run  "$scripts\organizer.mcr"
+
+clear temp on MAX exit

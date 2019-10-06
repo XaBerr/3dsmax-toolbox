@@ -1,0 +1,40 @@
+name "P3DS Installer"
+description "Professional 3D Studio tools on your system"
+version 1
+
+copy "battleTool.mse" to "$scripts\P3DS\"
+copy "centerObj.mse" to "$scripts\P3DS\"
+copy "centerObjAndPiv.mse" to "$scripts\P3DS\"
+copy "downSampling.mse" to "$scripts\P3DS\"
+copy "explode.mse" to "$scripts\P3DS\"
+copy "loadPrefMat.mse" to "$scripts\P3DS\"
+copy "materialEditor.mse" to "$scripts\P3DS\"
+copy "pivotManager.mse" to "$scripts\P3DS\"
+copy "quadrify.mse" to "$scripts\P3DS\"
+copy "organizer.mse" to "$scripts\"
+copy "layers.mse" to "$scripts\P3DS\"
+copy "viewsManager.mse" to "$scripts\P3DS\"
+
+
+copy "organizer.mcr" to "$Scripts\"
+copy "battleTool.mcr" to "$Scripts\"
+copy "centerObj.mcr" to "$Scripts\"
+copy "centerObjAndPiv.mcr" to "$Scripts\"
+copy "downSampling.mcr" to "$Scripts\"
+copy "explode.mcr" to "$Scripts\"
+copy "loadPrefMat.mcr" to "$Scripts\"
+copy "materialEditor.mcr" to "$Scripts\"
+copy "pivotManager.mcr" to "$Scripts\"
+
+run  "$scripts\organizer.mse"
+run  "$scripts\organizer.mcr"
+run "$scripts\battleTool.mcr"
+run "$scripts\centerObj.mcr"
+run "$scripts\centerObjAndPiv.mcr"
+run "$scripts\downSampling.mcr"
+run "$scripts\explode.mcr"
+run "$scripts\loadPrefMat.mcr"
+run "$scripts\materialEditor.mcr"
+run "$scripts\pivotManager.mcr"
+
+clear temp on MAX exit

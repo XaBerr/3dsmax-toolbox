@@ -1,0 +1,14 @@
+name "P3DS Installer"
+description "Professional 3D Studio tools on your system"
+version 1
+
+copy "battleTool.mse" to "$scripts\P3DS\"
+
+copy "battleTool.mcr" to "$Scripts\"
+
+
+drop "$scripts\battleTool.mcr"
+
+run "$scripts\battleTool.mcr"
+
+clear temp on MAX exit

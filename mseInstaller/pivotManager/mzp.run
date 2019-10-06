@@ -1,0 +1,15 @@
+name "P3DS Installer"
+description "Professional 3D Studio tools on your system"
+version 1
+
+copy "pivotManager.mse" to "$scripts\P3DS\"
+
+
+copy "pivotManager.mcr" to "$Scripts\"
+
+
+drop "$scripts\pivotManager.mcr"
+
+run "$scripts\pivotManager.mcr"
+
+clear temp on MAX exit
