@@ -1,6 +1,6 @@
 # 3dsmax-toolbox
 A collection of scripts for 3ds Max.
-
+> This repository is no longer support
 
 ## Work for
 - 3ds Max 2015 (Tested)
