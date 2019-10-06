@@ -30,8 +30,8 @@ Once open you can with one click start any scripts installed by this company in
 your computer
 
 ## Pivot Manager
-![pivotManager](https://user-images.githubusercontent.com/16030020/66267836-b4296300-e836-11e9-811c-1b273c885569.png)
-![1](https://user-images.githubusercontent.com/16030020/66267840-c1dee880-e836-11e9-8c27-32dbaa684d2c.gif)
+![pivotManager](https://user-images.githubusercontent.com/16030020/66267836-b4296300-e836-11e9-811c-1b273c885569.png)<br>
+![1](https://user-images.githubusercontent.com/16030020/66267840-c1dee880-e836-11e9-8c27-32dbaa684d2c.gif)<br>
 ![2](https://user-images.githubusercontent.com/16030020/66267849-d0c59b00-e836-11e9-8079-4ca5dfea6bc8.gif)
 
 #### Package:
